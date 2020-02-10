@@ -74,9 +74,6 @@ workdir = dirname(@__FILE__)
 # dataname_3 = "12_splitted_sorted_pointformat3_clipZ"
 dataname_4 = "14_splitted_sorted_pointformat3_clipZ"
 
-# const filenn_NL3 = joinpath(workdir,dataname_1 * ".laz")
-# const filenn_NL3_las = File{format"LAZ_"}(filenn_NL3)
-
 const filenn_NL1 = joinpath(workdir,dataname_4 * ".laz")
 const filenn_NL1_las = File{format"LAZ_"}(filenn_NL1)
 
